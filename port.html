@@ -5,12 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AyejudeFashionStore</title>
-
-    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <title>complete responsive personal portfolio website design tutorial</title>
 
     <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
     <!-- custom css file link  -->
     <link rel="stylesheet" href="port.css">
@@ -19,32 +17,49 @@
 
 <body>
 
+    <!-- custom cursors  -->
+    <div class="cursor-1"></div>
+    <div class="cursor-2"></div>
+
+
+    <div id="menu-bars" class="fas fa-bars"></div>
+
     <!-- header section starts  -->
 
-    <header class="header">
+    <header>
 
-        <a href="#" class="logo"> <i class="fa fa-shopping-bag"></i> AmigoFashionStore </a>
+        <a href="#" class="logo"> <span>Ramesh</span> B </a>
 
         <nav class="navbar">
-            <a href="#home">home</a>
-            <a href="#products">products</a>
-            <a href="#featured">Brands</a>
-            <a href="#review">reviews</a>
+            <a href="#home">Home</a>
+            <a href="#about">about</a>
+            <a href="#service">service</a>
+            <a href="#experience">Education</a>
+            <a href="#portfolio">Portfolio</a>
             <a href="#contact">contact</a>
-            <a href="#blogs">blogs</a>
         </nav>
 
-        <div class="icons">
-            <div id="menu-btn" class="fas fa-bars"></div>
-            <div id="search-btn" class="fas fa-search"></div>
-            <a href="#cart" class="fas fa-shopping-cart"></a>
-            <a href="#heart" class="fas fa-heart"></a>
+        <div class="follow">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="https://twitter.com/pvr8074" target="_blank" class="fab fa-twitter"></a>
+            <a href="https://www.instagram.com/ramesh1.25/" target="_blank" class="fab fa-instagram"></a>
+            <a href="https://www.linkedin.com/in/ramesh-boya/" target="_blank" class="fab fa-linkedin"></a>
         </div>
 
-        <form action="" class="search-form">
-            <input type="search" name="" placeholder="search here..." id="search-box">
-            <label for="search-box" class="fas fa-search"></label>
-        </form>
+        <div class="follow">
+            <h3 class="para">projects Links..</h3>
+            <a href="https://indiantrains.ccbp.tech/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/632/632661.png" class="imgg"></a>
+            <a href="https://avatar16.ccbp.tech" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/616/616412.png" class="imgg"></a>
+            <a href="https://lazygame.ccbp.tech" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/3940/3940403.png" class="imgg"></a>
+            <a href="https://catproject22.ccbp.tech" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/906/906265.png" class="imgg"></a>
+            <a href="https://txon3.ccbp.tech" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/9527/9527139.png" class="imgg"></a>
+            <a href="https://game22.ccbp.tech" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/6128/6128830.png" class="imgg"></a>
+
+        </div>
+
+
+
+
 
     </header>
 
@@ -54,539 +69,236 @@
 
     <section class="home" id="home">
 
-        <div class="swiper home-slider">
+        <div class="content">
+            <span class="hi"> hi there... </span>
+            <h3> i am <span> Ramesh B </span> </h3>
+            <p class="info"> i am front-end developer </p>
+            <p class="text">I am learning the skills of HTML, CSS, Bootstrap, Python, SQL, NODE.JS and RACT.JS for a full-stack development course. </p>
+            <a href="#about" class="btn">about me</a>
+        </div>
 
-            <div class="swiper-wrapper">
-
-                <div class="swiper-slide slide" style="background:url(https://ik.imagekit.io/qfph1j55p/shopping/banner1.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1675143156751-repeat)">
-                    <div class="content">
-                        <span>upto 75% off</span>
-                        <h3>women's Fashion..👩🏻</h3>
-                        <a href="https://www.myntra.com/shop/women" target="_blank" class="btn">shop now</a>
-                    </div>
-                </div>
-
-                <div class="swiper-slide slide" style="background:url(https://ik.imagekit.io/qfph1j55p/shopping/banner2.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1675143156455) no-repeat">
-                    <div class="content">
-                        <span>upto 80% off</span>
-                        <h3>men's Fashion..👨</h3>
-                        <a href="https://amigobyayejude.in" target="_blank" class="btn">shop now</a>
-                    </div>
-                </div>
-
-                <div class="swiper-slide slide" style="background:url(https://ik.imagekit.io/qfph1j55p/shopping/banner3.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1675143156646) no-repeat">
-                    <div class="content">
-                        <span>upto 70% off</span>
-                        <h3>kid's Fashion..🧒</h3>
-                        <a href="https://www.myntra.com/kids?f=Categories%3AShirts%3A%3AGender%3Aboys%2Cboys%20girls&plaEnabled=false" target="_blank" class="btn">shop now</a>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-
+        <div class="image">
+            <img src="https://ik.imagekit.io/qfph1j55p/ramesh2_1cJZQVnMy?ik-sdk-version=javascript-1.4.3&updatedAt=1675087957135" class="img" alt="">
         </div>
 
     </section>
 
     <!-- home section ends -->
 
-    <!-- banner section starts  -->
+    <!-- about section starts  -->
 
-    <section class="banner-container">
+    <section class="about" id="about">
 
-        <div class="banner">
-            <img src="https://ik.imagekit.io/qfph1j55p/shopping/shop_banner_img1.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=167514316295" alt="">
-            <div class="content">
-                <span>Best Of Women's Store</span>
-                <h3> 40-70% off</h3>
-                <a href="https://www.myntra.com/shop/women" target="_blank" class="btn">shop now</a>
+        <h1 class="heading"> about <span> me </span> </h1>
+
+        <div class="row-1">
+
+            <div class="image">
+                <img src="https://ik.imagekit.io/qfph1j55p/ramesh_lNyNj6U6WI?ik-sdk-version=javascript-1.4.3&updatedAt=1675078892715" alt="">
             </div>
+
+            <div class="content">
+                <h3> my name Ramesh B & i am a font-end developer </h3>
+                <p>I am learning the skills of HTML, CSS, Bootstrap, Python, SQL, NODE.JS and RACT.JS for a full-stack development course.NxtWeve Ccbp 4.0 from Hydrabad</p>
+                <div class="box-container">
+                    <div class="box">
+                        <p> <span> age : </span> 24 </p>
+                        <p> <span> gender : </span> male </p>
+                        <p> <span> language : </span> hindi, english Telugu </p>
+                        <p> <span> work : </span> front-end developer </p>
+                    </div>
+                    <div class="box">
+                        <p> <span> freelance : </span> available </p>
+                        <p> <span> phone : </span> 8074899070 </p>
+                        <p> <span> email : </span> rameshboya215@gmail.com </p>
+                        <p> <span> country : </span> india </p>
+                    </div>
+                </div>
+                <a href="#" class="btn">download CV</a>
+                <a href="#" class="btn">hire me</a>
+            </div>
+
         </div>
 
-        <div class="banner">
-            <img src="https://ik.imagekit.io/qfph1j55p/shopping/shop_banner_img2.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1675143163004" alt="">
-            <div class="content">
-                <span>Best Of Men's Store</span>
-                <h3> 40-70% off</h3>
-                <a href="https://www.myntra.com/shop/men" target="_blank" class="btn">shop now</a>
+        <h1 class="heading"> <span> my </span> skills </h1>
+
+        <div class="row-2">
+
+            <div class="skills">
+                <div class="progress">
+                    <h3> web design <span> 95% </span> </h3>
+                    <div class="bar"> <span></span> </div>
+                </div>
+                <div class="progress">
+                    <h3> web development <span> 80% </span> </h3>
+                    <div class="bar"> <span></span> </div>
+                </div>
+                <div class="progress">
+                    <h3> UI design <span> 75% </span> </h3>
+                    <div class="bar"> <span></span> </div>
+                </div>
+                <div class="progress">
+                    <h3> Python <span> 85% </span> </h3>
+                    <div class="bar"> <span></span> </div>
+                </div>
+                <div class="progress">
+                    <h3> javascript <span> 85% </span> </h3>
+                    <div class="bar"> <span></span> </div>
+                </div>
+                <div class="progress">
+                    <h3> react.js <span> 80% </span> </h3>
+                    <div class="bar"> <span></span> </div>
+                </div>
             </div>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <h3> >> 2+ </h3>
+                    <p>Month of experience</p>
+                </div>
+                <div class="box">
+                    <h3> >> 5+ </h3>
+                    <p>coding skills</p>
+                </div>
+                <div class="box">
+                    <h3> >> 50+ </h3>
+                    <p>projects completed</p>
+                </div>
+                <div class="box">
+                    <h3> >> 10+ </h3>
+                    <p>Cratificates</p>
+                </div>
+
+            </div>
+
         </div>
 
     </section>
 
-    <!-- banner section ends -->
+    <!-- about section ends -->
 
-    <!-- products section starts  -->
+    <!-- service section starts  -->
 
-    <section class="products" id="products">
+    <section class="service" id="service">
 
-        <h1 class="heading"> Shop By <span>Category..❤️</span> </h1>
-
-        <div class="filter-buttons">
-            <div class="buttons active" data-filter="all">all</div>
-            <div class="buttons" data-filter="arrivals">new arrivals</div>
-            <div class="buttons" data-filter="featured">featured</div>
-            <div class="buttons" data-filter="special">special offer</div>
-            <div class="buttons" data-filter="seller">best seller</div>
-        </div>
+        <h1 class="heading"> <span> my </span> services </h1>
 
         <div class="box-container">
 
-            <div class="box" data-item="featured">
-                <div class="icons">
-                    <a href="#" class="fas fa-shopping-cart"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/shopsy-shirt/9/k/r/l-shopsy-3053-buynewtrend-original-imagmffhc3fkup6g.jpeg?q=70" alt="">
-                </div>
+            <div class="box">
+                <i class="fas fa-code"></i>
+                <h3>web design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, facere?</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-paint-brush"></i>
+                <h3>UI/Ux</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, facere?</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-mobile"></i>
+                <h3>responsive design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, facere?</p>
+            </div>
+
+            <div class="box">
+                <i class="fa fa-desktop"></i>
+                <h3>React design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, facere?</p>
+            </div>
+
+            <div class="box">
+                <i class="fa fa-puzzle-piece"></i>
+                <h3>problem sloving </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, facere?</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-envelope"></i>
+                <h3>email marketing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, facere?</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- service section ends -->
+
+    <!-- experience section starts  -->
+
+    <section class="experience" id="experience">
+
+        <h1 class="heading"> <span> my </span> education </h1>
+
+        <div class="box-container">
+
+            <div class="box">
                 <div class="content">
-                    <h3>Women Kurta and Pant Set Viscose Rayon</h3>
-                    <div class="price">
-                        <div class="amount">₹485</div>
-                        <div class="cut">₹1999</div>
-                        <div class="offer">75% off</div>
-                    </div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
-                        <span>(35)</span>
-                    </div>
+                    <span> 2023 - Tilldate </span>
+                    <h3>Web development Intren .Txon</h3>
+                    <p>The role of a Web Developer is to design, create and maintain websites,
+                        providing in the process a cohesive and user-friendly online portal for the use
+                        of clients, customers,
+                        work colleagues and other interested parties.</p>
                 </div>
             </div>
 
-            <div class="box" data-item="special">
-                <div class="icons">
-                    <a href="#" class="fas fa-shopping-cart"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="https://rukminim1.flixcart.com/image/832/832/kvpklu80/shirt/q/r/k/42-14625112-roadster-original-imag8jngmdmgh9c4.jpeg?q=70" alt="">
-                </div>
+            <div class="box">
                 <div class="content">
-                    <h3>Men Solid Round Neck Light Blue Shirt</h3>
-                    <div class="price">
-                        <div class="amount">₹379</div>
-                        <div class="cut">₹1299</div>
-                        <div class="offer">70% off</div>
-                    </div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
-                        <span>(45)</span>
-                    </div>
+                    <span> 2022 - 2023 </span>
+                    <h3>Nxtwave Disruptive Technologies</h3>
+                    <p>Industry Ready Certification in Full-stack Developmentlearning A skils
+                        Frontend: HTML, CSS, Bootstrap, JavaScript, React.js*<br />
+                        Backend: Python, Express, Node.js<br />
+                        Databases: SQLite
+
+                    </p>
                 </div>
             </div>
 
-            <div class="box" data-item="seller">
-                <div class="icons">
-                    <a href="#" class="fas fa-shopping-cart"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/g/g/m/xs-480369-bewakoof-original-imaghav3z9amwewg.jpeg?q=70" alt="">
-                </div>
+            <div class="box">
                 <div class="content">
-                    <h3>Women Co-ords Green, Blue, White Dress</h3>
-                    <div class="price">
-                        <div class="amount">₹599</div>
-                        <div class="cut">₹3339</div>
-                        <div class="offer">85% off</div>
-                    </div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
-                        <span>(50)</span>
-                    </div>
+                    <span> 2016 - 2018 </span>
+                    <h3>MBA</h3>
+                    <p>Master of Business Administration<br />
+                        Mnr Degree & Pg college .Hydrabad <br />
+                        University : Osmania .HYD<br />
+                        Grades & Percentage : 70%</p>
                 </div>
             </div>
 
-            <div class="box" data-item="arrivals">
-                <div class="icons">
-                    <a href="#" class="fas fa-shopping-cart"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="https://rukminim1.flixcart.com/image/832/832/k2z1t3k0/shirt/z/z/2/7-8-years-kenny-2-one-friday-original-imafm7c98eajvqzz.jpeg?q=70" alt="">
-                </div>
+            <div class="box">
                 <div class="content">
-                    <h3>Boys Casual Pattren shirt (Red)</h3>
-                    <div class="price">
-                        <div class="amount">₹449</div>
-                        <div class="cut">₹449</div>
-                        <div class="offer">77% off</div>
-                    </div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
-                        <span>(45)</span>
-                    </div>
+                    <span> 2013 - 2016 </span>
+                    <h3>BCOM </h3>
+                    <p>Bachelor of Commerce<br />
+                        Wccm Degree college .Wanaparthy <br />
+                        University : Palamuru .MBNR<br />
+                        Grades & Percentage : 68%</p>
                 </div>
             </div>
 
-            <div class="box" data-item="featured">
-                <div class="icons">
-                    <a href="#" class="fas fa-shopping-cart"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/kids-top/o/r/9/14-15-years-ck202100243-14-15y-cutiekins-original-imaghb9mheahyssj.jpeg?q=70" alt="">
-                </div>
+            <div class="box">
                 <div class="content">
-                    <h3>Girls Above Knee Festive/Wedding Dress (Light Blue, 3/4 Sleeve)</h3>
-                    <div class="price">
-                        <div class="amount">₹399</div>
-                        <div class="cut">₹1999</div>
-                        <div class="offer">80% off</div>
-                    </div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
-                        <span>(43)</span>
-                    </div>
+                    <span> 2013 - 2016 </span>
+                    <h3>CEC</h3>
+                    <p>Govt Jr college .Wanaparthy <br />
+                        Board : Board of Intermediate Education .AP<br />
+                        Grades & Percentage : 69%</p>
                 </div>
             </div>
 
-            <div class="box" data-item="arrivals">
-                <div class="icons">
-                    <a href="#" class="fas fa-shopping-cart"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="https://rukminim1.flixcart.com/image/832/832/jwxuvm80/shirt/4/j/5/40-8920455-roadster-original-imafhh7rxz9nytz4.jpeg?q=70" alt="">
-                </div>
+            <div class="box">
                 <div class="content">
-                    <h3>Men Regular Fit Printed Casual Shirt</h3>
-                    <div class="price">
-                        <div class="amount">₹472</div>
-                        <div class="cut">₹1499</div>
-                        <div class="offer">85% off</div>
-                    </div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
-                        <span>(45)</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="box" data-item="special">
-                <div class="icons">
-                    <a href="#" class="fas fa-shopping-cart"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="https://rukminim1.flixcart.com/image/832/832/kx7vc7k0/sweatshirt/m/0/o/-original-imag9qaycpttz6tz.jpeg?q=70" alt="">
-                </div>
-                <div class="content">
-                    <h3>Printed Women Jumpsuit</h3>
-                    <div class="price">
-                        <div class="amount">₹657</div>
-                        <div class="cut">₹1999</div>
-                        <div class="offer">67% off</div>
-                    </div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
-                        <span>(50)</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="box" data-item="seller">
-                <div class="icons">
-                    <a href="#" class="fas fa-shopping-cart"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/5/o/d/-original-imaghpncufjbdmhz.jpeg?q=70" alt="">
-                </div>
-                <div class="content">
-                    <h3>Men Slim Fit Solid Mandarin Collar Casual Shirt</h3>
-                    <div class="price">
-                        <div class="amount">₹719</div>
-                        <div class="cut">₹1299</div>
-                        <div class="offer">70% off</div>
-                    </div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
-                        <span>(48)</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="box" data-item="seller">
-                <div class="icons">
-                    <a href="#" class="fas fa-shopping-cart"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/kids-top/y/i/m/5-6-years-ck20210452-cutiekins-original-imaghjyq4xzkwrzy.jpeg?q=70" alt="">
-                </div>
-                <div class="content">
-                    <h3>Barbie Girls Maxi/Full Length Casual Dress (Dark Blue, Short Sleeve)</h3>
-                    <div class="price">
-                        <div class="amount">₹311</div>
-                        <div class="cut">₹999</div>
-                        <div class="offer">60% off</div>
-                    </div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
-                        <span>(50)</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="box" data-item="featured">
-                <div class="icons">
-                    <a href="#" class="fas fa-shopping-cart"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="https://rukminim1.flixcart.com/image/832/832/jsw3yq80/sweatshirt/m/9/r/s-6510115-roadster-original-imafecuymnmaxfqs.jpeg?q=70" alt="">
-                </div>
-                <div class="content">
-                    <h3>Men Regular Fit Solid Spread Collar Hoodie for men </h3>
-                    <div class="price">
-                        <div class="amount">₹659</div>
-                        <div class="cut">₹1299</div>
-                        <div class="offer">20% off</div>
-                    </div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
-                        <span>(48)</span>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="box" data-item="special">
-                <div class="icons">
-                    <a href="#" class="fas fa-shopping-cart"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="https://rukminim1.flixcart.com/image/832/832/kxkqavk0/kurta/v/x/l/xl-kr-4439-maroon-lee-moda-original-imagay5bbzhbpyvb.jpeg?q=70" alt="">
-                </div>
-                <div class="content">
-                    <h3>Women Bandhani Cotton Rayon Ethnic Dress (Light Green)</h3>
-                    <div class="price">
-                        <div class="amount">₹659</div>
-                        <div class="cut">₹3159</div>
-                        <div class="offer">80% off</div>
-                    </div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
-                        <span>(40)</span>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="box" data-item="special">
-                <div class="icons">
-                    <a href="#" class="fas fa-shopping-cart"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="https://rukminim1.flixcart.com/image/832/832/kwtkxow0/kids-t-shirt/b/u/0/13-14-years-fst506-prao-bwg-force-original-imag9fynvx3zeg4b.jpeg?q=70" alt="">
-                </div>
-                <div class="content">
-                    <h3>Boys Casual, Rounded Black T-Shirt (Black Pack of 1)</h3>
-                    <div class="price">
-                        <div class="amount">₹349</div>
-                        <div class="cut">₹1059</div>
-                        <div class="offer">90% off</div>
-                    </div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
-                        <span>(35)</span>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="box" data-item="special">
-                <div class="icons">
-                    <a href="#" class="fas fa-shopping-cart"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="https://rukminim1.flixcart.com/image/832/832/l4fxh8w0/shirt/z/y/u/-original-imagfc75ewzj9gfn.jpeg?q=70" alt="">
-                </div>
-                <div class="content">
-                    <h3>Men Slim Fit Solid Black Casual Shirt</h3>
-                    <div class="price">
-                        <div class="amount">₹859</div>
-                        <div class="cut">₹1200</div>
-                        <div class="offer">85% off</div>
-                    </div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
-                        <span>(50)</span>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="box" data-item="special">
-                <div class="icons">
-                    <a href="#" class="fas fa-shopping-cart"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/o/g/k/s-fk-wn22-hd-fs-crop-black-sld-space-maniac-original-imaggkk7dwjhsjd4.jpeg?q=70" alt="">
-                </div>
-                <div class="content">
-                    <h3>Women Palazzo Set Viscose Rayon</h3>
-                    <div class="price">
-                        <div class="amount">₹999</div>
-                        <div class="cut">₹1499</div>
-                        <div class="offer">65% off</div>
-                    </div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
-                        <span>(50)</span>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="box" data-item="special">
-                <div class="icons">
-                    <a href="#" class="fas fa-shopping-cart"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="https://rukminim1.flixcart.com/image/832/832/kzpw2vk0/shirt/8/d/1/-original-imagbz5byuwfqpv8.jpeg?q=70" alt="">
-                </div>
-                <div class="content">
-                    <h3>Men Printed Round Neck Maroon Shirt</h3>
-                    <div class="price">
-                        <div class="amount">₹404</div>
-                        <div class="cut">₹999</div>
-                        <div class="offer">76% off</div>
-                    </div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
-                        <span>(43)</span>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div class="box" data-item="seller">
-                <div class="icons">
-                    <a href="#" class="fas fa-shopping-cart"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-eye"></a>
-                </div>
-                <div class="image">
-                    <img src="https://rukminim1.flixcart.com/image/832/832/kh3qkcw0-0/shirt/v/x/s/s-ttsh000977-tokyo-talkies-original-imafx6rgrfkezrwb.jpeg?q=70" alt="">
-                </div>
-                <div class="content">
-                    <h3>Women Regular Fit Solid Spread Collar Casual Shirt</h3>
-                    <div class="price">
-                        <div class="amount">₹699</div>
-                        <div class="cut">₹1399</div>
-                        <div class="offer">80% off</div>
-                    </div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
-                        <span>(45)</span>
-                    </div>
+                    <span> 2001 - 2011 </span>
+                    <h3>SCHOOLING</h3>
+                    <p> Zphs High School .Wanaparthy <br />
+                        Board : Board of Secondary Education .AP<br />
+                        Grades & Percentage : 65%</p>
                 </div>
             </div>
 
@@ -594,365 +306,109 @@
 
     </section>
 
-    <!-- products section ends -->
+    <!-- experience section ends -->
 
-    <!-- deal section starts  -->
+    <!-- portfolio section starts  -->
 
-    <section class="deal">
+    <section class="portfolio" id="portfolio">
 
-        <div class="image">
-            <img src="https://ik.imagekit.io/qfph1j55p/shopping/tranding_img.png?ik-sdk-version=javascript-1.4.3&updatedAt=1675143163212" alt="">
-        </div>
+        <h1 class="heading"> <span> my </span> portfolio </h1>
 
-        <div class="content">
-            <span>Crazy Deals!</span>
-            <h3>Lowest Prices On The Best Brands</h3>
-            <p>sale get up to 70% off</p>
-            <a href="#" class="btn">shop now</a>
-        </div>
+        <div class="box-container">
 
-    </section>
+            <div class="box">
+                <img src="https://thebrandhopper.com/wp-content/uploads/2021/01/Indian-Railway-Catering-and-Tourism-Corporation.png" alt="">
+                <h3> project 01 </h3>
 
-    <!-- deal section ends -->
-
-    <!-- featured section starts  -->
-
-    <section class="featured" id="featured">
-
-        <h1 class="heading"> <span>Most </span> Loved Brands </h1>
-
-        <div class="swiper featured-slider">
-
-            <div class="swiper-wrapper">
-
-                <div class="swiper-slide slide">
-                    <div class="icons">
-                        <a href="#" class="fas fa-shopping-cart"></a>
-                        <a href="#" class="fas fa-heart"></a>
-                        <a href="#" class="fas fa-search"></a>
-                        <a href="#" class="fas fa-eye"></a>
-                    </div>
-                    <div class="image">
-                        <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/u/k/e/s-2304056-roadster-original-imafgmre6hcbgajx-bb.jpeg?q=70" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>Men Color Block Polo Neck Yellow T-Shirt</h3>
-                        <div class="price">
-                            <div class="amount">₹474</div>
-                            <div class="cut">₹1299</div>
-                            <div class="offer">850% off</div>
-                        </div>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <span>(50)</span>
-                        </div>
-                    </div>
+                <div class="icons">
+                    <a href="#" class="fas fa-link"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-search"></a>
                 </div>
-
-                <div class="swiper-slide slide">
-                    <div class="icons">
-                        <a href="#" class="fas fa-shopping-cart"></a>
-                        <a href="#" class="fas fa-heart"></a>
-                        <a href="#" class="fas fa-search"></a>
-                        <a href="#" class="fas fa-eye"></a>
-                    </div>
-                    <div class="image">
-                        <img src="https://rukminim1.flixcart.com/image/832/832/kpbipow0/t-shirt/a/z/b/xl-13594624-roadster-original-imag3kpsfsrkhgkg.jpeg?q=70" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>Women Solid Round Neck Beige T-Shirt</h3>
-                        <div class="price">
-                            <div class="amount">₹248</div>
-                            <div class="cut">₹999</div>
-                            <div class="offer">85% off</div>
-                        </div>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <span>(40)</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="swiper-slide slide">
-                    <div class="icons">
-                        <a href="#" class="fas fa-shopping-cart"></a>
-                        <a href="#" class="fas fa-heart"></a>
-                        <a href="#" class="fas fa-search"></a>
-                        <a href="#" class="fas fa-eye"></a>
-                    </div>
-                    <div class="image">
-                        <img src="https://rukminim1.flixcart.com/image/832/832/l33cia80/t-shirt/v/q/l/m-84844201-puma-original-imageagxz47dsqgf.jpeg?q=70" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>Men Regular Fit Solid Spread Collar Casual T-Shirt</h3>
-                        <div class="price">
-                            <div class="amount">₹529</div>
-                            <div class="cut">₹999</div>
-                            <div class="offer">70% off</div>
-                        </div>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <span>(45)</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="swiper-slide slide">
-                    <div class="icons">
-                        <a href="#" class="fas fa-shopping-cart"></a>
-                        <a href="#" class="fas fa-heart"></a>
-                        <a href="#" class="fas fa-search"></a>
-                        <a href="#" class="fas fa-eye"></a>
-                    </div>
-                    <div class="image">
-                        <img src="https://rukminim1.flixcart.com/image/832/832/klphn680/kids-dress/f/x/d/4-5-years-gu0363-addyvero-original-imagyryrkgtuz9bp.jpeg?q=70" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>Girls Above Knee Party Dress (Black, Sleeveless)</h3>
-                        <div class="price">
-                            <div class="amount">₹398</div>
-                            <div class="cut">₹1299</div>
-                            <div class="offer">20% off</div>
-                        </div>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <span>(50)</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="swiper-slide slide">
-                    <div class="icons">
-                        <a href="#" class="fas fa-shopping-cart"></a>
-                        <a href="#" class="fas fa-heart"></a>
-                        <a href="#" class="fas fa-search"></a>
-                        <a href="#" class="fas fa-eye"></a>
-                    </div>
-                    <div class="image">
-                        <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/shirt/m/z/s/l-17288882-roadster-original-imaghq2mtpd5qr4z.jpeg?q=70" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>Women Regular Fit Checkered Spread Collar Casual Shirt</h3>
-                        <div class="price">
-                            <div class="amount">₹629</div>
-                            <div class="cut">₹2099</div>
-                            <div class="offer">85% off</div>
-                        </div>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <span>(30)</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="swiper-slide slide">
-                    <div class="icons">
-                        <a href="#" class="fas fa-shopping-cart"></a>
-                        <a href="#" class="fas fa-heart"></a>
-                        <a href="#" class="fas fa-search"></a>
-                        <a href="#" class="fas fa-eye"></a>
-                    </div>
-                    <div class="image">
-                        <img src="https://rukminim1.flixcart.com/image/832/832/kz1lle80/sweatshirt/i/4/t/xl-sl0029zh-black-slowloris-original-imagb547md8kyzw8.jpeg?q=70" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>Men Full Sleeve Solid Hooded Sweatshirt</h3>
-                        <div class="price">
-                            <div class="amount">₹799</div>
-                            <div class="cut">₹1999</div>
-                            <div class="offer">9s0% off</div>
-                        </div>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                            <span>(50)</span>
-                        </div>
-                    </div>
-                </div>
-
             </div>
 
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-
-        </div>
-
-    </section>
-
-    <!-- featured section ends -->
-
-    <!-- reviews section starts  -->
-
-    <section class="review" id="review">
-
-        <h1 class="heading"> Customer's <span>review</span> </h1>
-
-        <div class="swiper review-slide">
-
-            <div class="swiper-wrapper">
-
-                <div class="swiper-slide slide">
-                    <p> Awesome fittings❤️
-                        Quality wise great according to the price...⚡️</p>
-                    <div class="user">
-                        <img src="https://ik.imagekit.io/qfph1j55p/pics/IMG_20230131_193823.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1675174627755" alt="">
-                        <div class="info">
-                            <h3>Nawin </h3>
-                            <span>happy Customer</span>
-                        </div>
-                    </div>
+            <div class="box">
+                <img src="https://static.toiimg.com/thumb/msid-94394317,imgsize-94840,width-800,height-600,resizemode-75/94394317.jpg" alt="">
+                <h3> project 02 </h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-link"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-search"></a>
                 </div>
+            </div>
 
-
-
-                <div class="swiper-slide slide">
-                    <p> Very good Amigo Brand T shirt /
-                        Amigos service very good😇😇⭐️</p>
-                    <div class="user">
-                        <img src="https://ik.imagekit.io/qfph1j55p/pics/IMG_20230131_193730.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1675174626986" alt="">
-                        <div class="info">
-                            <h3>Venkat </h3>
-                            <span>happy Customer</span>
-                        </div>
-                    </div>
+            <div class="box">
+                <img src="https://i0.wp.com/indieranger.com/wp-content/uploads/2021/09/bomb-club-title-screen.png?fit=1920%2C1080&ssl=1" alt="">
+                <h3> project 03 </h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-link"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-search"></a>
                 </div>
+            </div>
 
-
-
-
-                <div class="swiper-slide slide">
-                    <p> Fits perfectly and the color is vibrant as it looks in the picture. Loved it!!😇❤️</p>
-                    <div class="user">
-                        <img src="https://ik.imagekit.io/qfph1j55p/pics/IMG_20230131_193707.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1675174627310" alt="">
-                        <div class="info">
-                            <h3>Kiran </h3>
-                            <span>happy Customer</span>
-                        </div>
-                    </div>
+            <div class="box">
+                <img src="https://i.guim.co.uk/img/media/beeb1759afd501a1a0a265e3f02e84dd9a31e29e/0_0_4890_2862/master/4890.jpg?width=620&quality=45&dpr=2&s=none" alt="">
+                <h3> project 04 </h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-link"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-search"></a>
                 </div>
+            </div>
 
-
-
-                <div class="swiper-slide slide">
-                    <p> Very nice shirt 🤩I like it♥️♥️……comfortable and look🔥🔥😍😍…thankyou Myntra.आपको भी ये order करना चाइए😍😍❤️</p>
-                    <div class="user">
-                        <img src="https://ik.imagekit.io/qfph1j55p/pics/IMG_20230131_193645.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1675174627650" alt="">
-                        <div class="info">
-                            <h3>Bhoopal </h3>
-                            <span>happy Customer</span>
-                        </div>
-                    </div>
+            <div class="box">
+                <img src="https://clickup.com/blog/wp-content/uploads/2019/01/to-do-list-apps.png" alt="">
+                <h3> project 05 </h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-link"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-search"></a>
                 </div>
+            </div>
 
-
-
-                <div class="swiper-slide slide">
-                    <p> Good shirt. It's thin polyester material. Not the most comfortable to wear but the thinness of
-                        the material makes it nice, airy and okay to wear. The color however is already looking a bit faded in collar region,
-                        and that before even the first wash.
-                        Skeptical about the longevity.❤️⭐️</p>
-                    <div class="user">
-                        <img src="https://ik.imagekit.io/qfph1j55p/pics/mahesh_NRkmcU351?ik-sdk-version=javascript-1.4.3&updatedAt=1675176058838" alt="">
-                        <div class="info">
-                            <h3>Mahesh Yadav </h3>
-                            <span>happy Customer</span>
-                        </div>
-                    </div>
+            <div class="box">
+                <img src="https://www.healthifyme.com/blog/wp-content/uploads/2020/12/Orange.jpg" alt="">
+                <h3> project 06 </h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-link"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-search"></a>
                 </div>
-
-
-
-
-                <div class="swiper-slide slide">
-                    <p> This roadster shirt is my favourite over the H&M and Westside ones, And the best thing is my
-                        crush(now my gf) told me that i look very handsome in this shirt. I know it's hard to believe in cheap
-                        priced products but trust me this product is
-                        way more amazing than it looks in photograph</p>
-                    <div class="user">
-                        <img src="https://ik.imagekit.io/qfph1j55p/pics/1675174303935.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1675174627312" alt="">
-                        <div class="info">
-                            <h3>ShivaShankar </h3>
-                            <span>happy Customer</span>
-                        </div>
-                    </div>
-                </div>
-
-
-
-                <div class="swiper-slide slide">
-                    <p>Lovely ❤️ shirt has well as Jeans Like T-shirts thanks AmigoStore ❤️❤️.</p>
-                    <div class="user">
-                        <img src="https://ik.imagekit.io/qfph1j55p/pics/IMG_20230131_193746.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1675174627765" alt="">
-                        <div class="info">
-                            <h3>Shayam Sagar</h3>
-                            <span>happy Customer</span>
-                        </div>
-                    </div>
-                </div>
-
             </div>
 
         </div>
 
     </section>
 
-
-
-
-
-
-
-    <!-- reviews section ends -->
+    <!-- portfolio section ends -->
 
     <!-- contact section starts  -->
 
     <section class="contact" id="contact">
 
-        <h1 class="heading"> <span>contact</span> us </h1>
+        <h1 class="heading"> contact <span> me </span> </h1>
 
         <div class="icons-container">
 
             <div class="icons">
-                <i class="fa fa-map-marker" style="font-size:30px;color:rgb(42, 177, 21)"></i>
-                <h3>address</h3>
-                <p>Venteshwara Temple Colony 8-99/2 , Wanapathy, india - 509103</p>
-            </div>
-
-            <div class="icons">
-                <i class="fa fa-envelope" style="font-size:30px;color:rgb(42, 177, 21)"></i>
-                <h3>email</h3>
-                <p>pvr8074@gmail.com</p>
+                <i class="fas fa-envelope"></i>
+                <h3>my email</h3>
                 <p>rameshboya215@gmail.com</p>
+                <p>pvr8074@gmail.com</p>
             </div>
 
             <div class="icons">
-                <i class="fa fa-phone" style="font-size:30px;color:rgb(42, 177, 21)"></i>
-                <h3>phone</h3>
+                <i class="fas fa-phone"></i>
+                <h3>my number</h3>
                 <p>8074899070</p>
                 <p>8297244953</p>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>my address</h3>
+                <p>8-59/1, Hitech Colony, Hydrabad, india - 500011</p>
             </div>
 
         </div>
@@ -960,219 +416,34 @@
         <div class="row">
 
             <form action="">
-                <h3>get in touch</h3>
-                <div class="inputBox">
-                    <input type="text" placeholder="your name">
-                    <input type="email" placeholder="your email">
-                </div>
-                <div class="inputBox">
-                    <input type="number" placeholder="your number">
-                    <input type="text" placeholder="your subject">
-                </div>
-                <textarea placeholder="your message" cols="30" rows="10"></textarea>
-                <input type="submit" value="send message" class="btn">
+
+                <input type="text" placeholder="name" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="number" placeholder="number" class="box">
+
+                <textarea name="" placeholder="message" id="" cols="30" rows="10"></textarea>
+
+                <input type="submit" class="btn" value="send message">
+
             </form>
 
-            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.788252261566!2d72.82321484621745!3d19.141690214227783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1633431163028!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.788252261566!2d72.82321484621745!3d19.141690214227783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1625069635379!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
 
         </div>
+
 
     </section>
 
     <!-- contact section ends -->
 
-    <!-- blogs  section starts  -->
-
-    <section class="blogs" id="blogs">
-
-        <h1 class="heading"> our <span>bloggers</span></h1>
-
-        <div class="swiper blogs-slider">
-
-            <div class="swiper-wrapper">
-
-                <div class="swiper-slide slide">
-                    <div class="image">
-                        <img src="https://ik.imagekit.io/qfph1j55p/amigo33_VbysoLEuY?ik-sdk-version=javascript-1.4.3&updatedAt=1675218300201" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>Ajude </h3>
-                        <p>Telugu Fashion Vloger & Infilancer like Fashion.education aslo most importance youtuber subscibers in Fornt of Heart
-                            1K follwers on youtube name as a Ajude Amigo Her feed is full of striking ensembles that are captured most stylishly and attractively.
-                            inspirations and experiences You will notice many celebrities and popular figures wearing his brand.
-                        </p>
-                        <a href="https://www.youtube.com/results?search_query=aye+jude" target="_blank" class="btn">read more</a>
-                        <div class="icons">
-                            <a href="#"> <i class="fas fa-calendar"></i> 21st Aug, 2020 </a>
-                            <a href="#"> <i class="fas fa-user"></i> by admin </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="swiper-slide slide">
-                    <div class="image">
-                        <img src="https://cdn.shopify.com/s/files/1/0609/2102/0609/products/NewProject_25_ba331643-8b51-4506-a696-59dd91696f3f_750x.jpg?v=1661514400" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>Ganesh Bugutha </h3>
-                        <p> Men's Fashion Discover Tones' most coveted collection. Be first to know about the latest fashion. While you may have come for that one favorite shirt, we are confident that you will purchase more than one. Make sure you stack up on the best collection by discovering tones trends.
-                            Make the smart choice and evolve with the fashion 'Tone'.</p>
-                        <a href="https://www.youtube.com/results?search_query=ganesh+fashion" target="_blank" class="btn">read more</a>
-                        <div class="icons">
-                            <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
-                            <a href="#"> <i class="fas fa-user"></i> by admin </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="swiper-slide slide">
-                    <div class="image">
-                        <img src="https://wedbook.in/wp-content/uploads/2021/01/18.-Riya-Jain.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>Riya Jain</h3>
-                        <p> My name is Riya Jain, and I'm the founder of Namo Padmavati. From a very young age, I had to become the food bearer of my family which led me to start my
-                            Indian social media influencer and blogger. She is popular for her fashion and lifestyle blogs on her website CaughtInACuff.
-                            Fashion Bloger: Caught In A Cuff A mix of Fashion, Lifestyle and my life ✨ Be Kind⚡️Spread love ⭐️</p>
-                        <a href="https://www.youtube.com/results?search_query=riya+jain+fashion+blogger+" target="_blank" class="btn">read more</a>
-                        <div class="icons">
-                            <a href="#"> <i class="fas fa-calendar"></i> 28st Aug, 2020 </a>
-                            <a href="#"> <i class="fas fa-user"></i> by admin </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="swiper-slide slide">
-                    <div class="image">
-                        <img src="https://fashinza.com/textile/wp-content/uploads/2021/12/shutterstock_1262641225-1.jpg " alt="">
-                    </div>
-                    <div class="content">
-                        <h3>Komal Pandey </h3>
-                        <p>She is all about fashion and for her fashion is like therapy. She is extremely creative and imaginative with her looks and style.
-                            She is always trying something new. You will like how she is always experimenting with her style and fashion.
-                            Her artistic combinations and colourful fusions are utterly popular. Her profile is full of brilliant colours, happy vibes and incredible experiences. </p>
-                        <a href="https://www.youtube.com/results?search_query=komal+pandey+fashion+blogger" target="_blank" class="btn">read more</a>
-                        <div class="icons">
-                            <a href="#"> <i class="fas fa-calendar"></i> 16st January, 2019 </a>
-                            <a href="#"> <i class="fas fa-user"></i> by admin </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="swiper-slide slide">
-                    <div class="image">
-                        <img src="https://ik.imagekit.io/qfph1j55p/fashion2_gHcuGtGUD?ik-sdk-version=javascript-1.4.3&updatedAt=1675177962164" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>MUMBIKER NIKHIL</h3>
-                        <p>Mumbiker nikhil is a famous fashion vlogger with over 3 million subscribers.He uploads new video everyday.He got married in January 2021.
-                            expert at revamping old and boring
-                            fashion blogger and influencer, she is an eager content creator, who works on a variety of interesting topics through her blogs
-                            and videos. Her profile is full of brilliant colours,
-                            happy vibes and incredible experiences.
-                        </p>
-                        <a href="#" class="btn">read more</a>
-                        <div class="icons">
-                            <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
-                            <a href="#"> <i class="fas fa-user"></i> by admin </a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-
-        </div>
-
-    </section>
-
-    <!-- blogs  section ends -->
-
-    <!-- footer section starts  -->
-
-    <section class="footer">
-
-        <div class="box-container">
-
-            <div class="box">
-                <h3>about us</h3>
-                <p> which you will like very much.
-                    I will keep posting more important posts on my Website for all of you. Please give your support and love❤️.<br>
-                    Thanks For Visiting Our Site 😍 <br>
-
-                    <sapn class="nice">Have a nice day!🤗</sapn>
-
-                </p>
-            </div>
-
-            <div class="box">
-                <h3>category</h3>
-                <a href="#"> <i class="fas fa-arrow-right"></i> men </a>
-                <a href="#"> <i class="fas fa-arrow-right"></i> women </a>
-                <a href="#"> <i class="fas fa-arrow-right"></i> kids </a>
-                <a href="#"> <i class="fas fa-arrow-right"></i> best seller </a>
-                <a href="#"> <i class="fas fa-arrow-right"></i> new arrivals </a>
-                <a href="#"> <i class="fas fa-arrow-right"></i> Gift Cards </a>
-                <a href="#"> <i class="fas fa-arrow-right"></i> Amigo Insiders </a>
-            </div>
-
-            <div class="box">
-                <h3>quick links</h3>
-                <a href="#home"> <i class="fas fa-arrow-right"></i> Home </a>
-                <a href="#products"> <i class="fas fa-arrow-right"></i> Products </a>
-                <a href="#featured "> <i class="fas fa-arrow-right"></i> Brands </a>
-                <a href="#review"> <i class="fas fa-arrow-right"></i>Cusmoter review </a>
-                <a href="#contact"> <i class="fas fa-arrow-right"></i> Contact </a>
-                <a href="#blogs"> <i class="fas fa-arrow-right"></i> Blogs </a>
-            </div>
-
-            <div class="box">
-                <h3>extra links</h3>
-                <a href="#"> <i class="fas fa-arrow-right"></i> my order </a>
-                <a href="#heart"> <i class="fas fa-arrow-right"></i> my account </a>
-                <a href="#cart"> <i class="fas fa-arrow-right"></i> my listing </a>
-                <a href="#"> <i class="fas fa-arrow-right"></i> sell now </a>
-                <a href="#home"> <i class="fas fa-arrow-right"></i> new offers </a>
-            </div>
-
-        </div>
-
-        <div class="share">
+    <!-- footer section  -->
+    <footer class="footer"> created by <span> Ramesh B </span> | all rights reserved! <br>
+        <h3>Thanks To <span class="nxt">Nxtwave..❤️</span></h3>
+    </footer>
 
 
-            <hr class="rounded">
-            <img src="https://ik.imagekit.io/qfph1j55p/ramesh3_e1eX5k8VF?ik-sdk-version=javascript-1.4.3&updatedAt=1675496925917" class="img22">
-            <br>
-            <br>
-            <h2>CEO :<sapn class="ceo"> Ramesh B </sapn>
-            </h2>
-            <h2>Founders :<sapn class="ceo"> Naveen,Venkatesh </sapn>
-            </h2>
-            <h2>Founded :<sapn class="ceo"> 28 August 1997 </sapn>
-            </h2>
-            <h2> Headquarters :<sapn class="ceo"> Hydrabad,Mumbai,Newdelhi </sapn>
-            </h2>
-            <br>
-            <br>
-            <a href="#" class="fab fa-facebook-f" ;></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-pinterest"></a>
-            <a href="https://www.linkedin.com/in/ramesh-boya/" target="_blank" class="fab fa-linkedin"></a>
-            <a href="https://www.instagram.com/" target="_blank" class="fab fa-instagram"></a>
-        </div>
 
-        <div class="credit"> &copy; copyright @ 2023 by <span>Ramesh B</span> </div>
-
-    </section>
-
-    <!-- footer section ends -->
-
-
-    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-
-    <!-- custom js file link -->
+    <!-- custom js file link  -->
     <script src="port.js"></script>
 
 </body>

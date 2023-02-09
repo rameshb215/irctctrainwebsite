@@ -1,128 +1,36 @@
-let searchForm = document.querySelector('.search-form');
+let menu = document.querySelector('#menu-bars');
+let header = document.querySelector('header');
 
-document.querySelector('#search-btn').onclick = () => {
-    searchForm.classList.toggle('active');
-    navbar.classList.remove('active');
-}
-
-let navbar = document.querySelector('.navbar');
-
-document.querySelector('#menu-btn').onclick = () => {
-    navbar.classList.toggle('active');
-    searchForm.classList.remove('active');
+menu.onclick = () => {
+    menu.classList.toggle('fa-times');
+    header.classList.toggle('active');
 }
 
 window.onscroll = () => {
-    searchForm.classList.remove('active');
-    navbar.classList.remove('active');
+    menu.classList.remove('fa-times');
+    header.classList.remove('active');
 }
 
-let filterBtn = document.querySelectorAll('.filter-buttons .buttons');
-let filterItem = document.querySelectorAll('.products .box-container .box');
+let cursor1 = document.querySelector('.cursor-1');
+let cursor2 = document.querySelector('.cursor-2');
 
-filterBtn.forEach(button => {
+window.onmousemove = (e) => {
+    cursor1.style.top = e.pageY + 'px';
+    cursor1.style.left = e.pageX + 'px';
+    cursor2.style.top = e.pageY + 'px';
+    cursor2.style.left = e.pageX + 'px';
+}
 
-    button.onclick = () => {
-        filterBtn.forEach(btn => btn.classList.remove('active'));
-        button.classList.add('active');
+document.querySelectorAll('a').forEach(links => {
 
-        let dataFilter = button.getAttribute('data-filter');
+    links.onmouseenter = () => {
+        cursor1.classList.add('active');
+        cursor2.classList.add('active');
+    }
 
-        filterItem.forEach(item => {
+    links.onmouseleave = () => {
+        cursor1.classList.remove('active');
+        cursor2.classList.remove('active');
+    }
 
-            item.classList.remove('active');
-            item.classList.add('hide');
-
-            if (item.getAttribute('data-item') == dataFilter || dataFilter == 'all') {
-                item.classList.remove('hide');
-                item.classList.add('active');
-            }
-
-        });
-
-    };
-
-});
-
-var swiper = new Swiper(".home-slider", {
-    centeredSlides: true,
-    loop: true,
-    autoplay: {
-        delay: 9500,
-        disableOnInteraction: false,
-    },
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
-});
-
-var swiper = new Swiper(".featured-slider", {
-    centeredSlides: true,
-    loop: true,
-    spaceBetween: 20,
-    autoplay: {
-        delay: 9500,
-        disableOnInteraction: false,
-    },
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
-    breakpoints: {
-        0: {
-            slidesPerView: 1,
-        },
-        450: {
-            slidesPerView: 2,
-        },
-        768: {
-            slidesPerView: 3,
-        },
-        1200: {
-            slidesPerView: 4,
-        },
-    },
-});
-
-var swiper = new Swiper(".review-slide", {
-    loop: true,
-    spaceBetween: 20,
-    autoplay: {
-        delay: 9500,
-        disableOnInteraction: false,
-    },
-    breakpoints: {
-        0: {
-            slidesPerView: 1,
-        },
-        768: {
-            slidesPerView: 2,
-        },
-    },
-});
-
-var swiper = new Swiper(".blogs-slider", {
-    centeredSlides: true,
-    loop: true,
-    spaceBetween: 20,
-    autoplay: {
-        delay: 9500,
-        disableOnInteraction: false,
-    },
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
-    breakpoints: {
-        0: {
-            slidesPerView: 1,
-        },
-        768: {
-            slidesPerView: 2,
-        },
-        1200: {
-            slidesPerView: 3,
-        },
-    },
 });
